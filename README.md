@@ -12,12 +12,10 @@ Endpoints:
 - Postman
 
 ## How to Run
-
 1. Import `postman_collection.json` into Postman
 2. Run each request manually or using Collection Runner
 
 ## Test Coverage
-
 ### 1. GET /posts
 - Validate status code (200)
 - Validate response is array
@@ -45,10 +43,16 @@ Endpoints:
 | POST invalid JSON | PASS   |
 
 ## Approach
-
 - Tested using positive, negative, and edge cases
 - Validated:
   - Status codes
   - Response structure
   - Data correctness
 - Identified inconsistencies and limitations
+
+## Bugs & Issues
+
+## Conclusion
+The API works correctly for basic functionality, but lacks:
+- Proper validation
+- Consistent error handling
